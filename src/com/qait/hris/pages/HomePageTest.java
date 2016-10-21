@@ -25,7 +25,7 @@ public class HomePageTest {
 		driver.findElement(By.cssSelector("#txtUserName")).clear();
 		driver.findElement(By.cssSelector("#txtUserName")).sendKeys("nikhilbansal");
 		driver.findElement(By.cssSelector("#txtPassword")).clear();
-		driver.findElement(By.cssSelector("#txtPassword")).sendKeys("ok");
+		driver.findElement(By.cssSelector("#txtPassword")).sendKeys("ok    ");
 		driver.findElement(By.cssSelector(".btn.pull-left")).click();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		String nikhil = driver.getTitle();
